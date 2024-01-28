@@ -1,0 +1,19 @@
+{
+  "tests": [
+    {
+      "name": "Input example test",
+      "input": "12345\n2 5\n",
+      "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: 42315"
+    },
+    {
+      "name": "Simple example test",
+      "input": "12\n2 1\n",
+      "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: 21"
+    },
+    {
+      "name": "Millionaire example test",
+      "input": "1122543\n3 7\n",
+      "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: 5122143"
+    }
+  ]
+}
