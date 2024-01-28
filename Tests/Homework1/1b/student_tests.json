@@ -14,6 +14,11 @@
       "name": "Input example test capital letter",
       "input": "A b C\naxbd abac cccr\n",
       "output": "Please Enter Cool Letters:\nPlease Enter Text:\nThe score is: 15"
+    },
+    {
+      "name": "Input example test letter Z<foo<a",
+      "input": "a B c\nBabbling bumbling ^band of baboons\n",
+      "output": "Please Enter Cool Letters:\nPlease Enter Text:\nThe score is: -1"
     }
   ]
 }
