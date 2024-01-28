@@ -1,0 +1,19 @@
+{
+  "tests": [
+    {
+      "name": "Input example test",
+      "input": "b\nBabbling bumbling band of baboons\n",
+      "output": "Please Enter Cool Letter:\nPlease Enter Text:\nThe score is: 8"
+    },
+    {
+      "name": "Bad letter test",
+      "input": "b\nBabbling bumbling b@nd of baboons\n",
+      "output": "Please Enter Cool Letter:\nPlease Enter Text:\nThe score is: -1"
+    },
+    {
+      "name": "Input example test capital letter",
+      "input": "B\nBabbling bumbling band of baboons\n",
+      "output": "Please Enter Cool Letter:\nPlease Enter Text:\nThe score is: 8"
+    }
+  ]
+}
