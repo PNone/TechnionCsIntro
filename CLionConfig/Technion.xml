@@ -3,6 +3,7 @@
   <codeStyleSettings language="ObjectiveC">
     <option name="RIGHT_MARGIN" value="80" />
     <option name="WHILE_ON_NEW_LINE" value="true" />
+    <option name="SPACE_AFTER_TYPE_CAST" value="false" />
     <option name="IF_BRACE_FORCE" value="3" />
     <option name="DOWHILE_BRACE_FORCE" value="3" />
     <option name="WHILE_BRACE_FORCE" value="3" />
