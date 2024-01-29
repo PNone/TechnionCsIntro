@@ -3,12 +3,12 @@
     {
       "name": "Input example test",
       "input": "4 5 9 1 10 3\n",
-      "output": "Please Enter Input Signal:\nThe Clean Signal Is: 4.00, 5.00, 6.00, 5.00, 5.80"
+      "output": "Please Enter Input Signal:\nThe Clean Signal Is: 4.00, 5.00, 6.00, 5.00, 5.80, 4.67"
     },
     {
       "name": "Input example double whitespace",
       "input": "4 5 9 1 10  3\n",
-      "output": "Please Enter Input Signal:\nThe Clean Signal Is: 4.00, 5.00, 6.00, 5.00"
+      "output": "Please Enter Input Signal:\nThe Clean Signal Is: 4.00, 5.00, 6.00, 5.00, 5.80, 4.67"
     },
     {
       "name": "Input example single input",
