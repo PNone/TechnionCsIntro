@@ -24,6 +24,21 @@
       "name": "Same coordinate in both places",
       "input": "71225432\n2 2\n",
       "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: 71225432"
+    },
+    {
+      "name": "Negative number test",
+      "input": "-1122543\n3 7\n",
+      "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: -5122143"
+    },
+    {
+      "name": "Negative and same digit in both places",
+      "input": "-11225431\n1 7\n",
+      "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: -11225431"
+    },
+    {
+      "name": "Negative and same coordinate in both places",
+      "input": "-71225432\n2 2\n",
+      "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: -71225432"
     }
   ]
 }
