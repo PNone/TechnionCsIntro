@@ -23,7 +23,7 @@
     {
       "name": "Long input test",
       "input": "4 5 9 1 10 3 5 1505 4 3003\n",
-      "output": "Please Enter Input Signal:\nThe Clean Signal Is: 4.00, 5.00, 6.00, 5.00, 5.80, 5.60, 304.80, 1504.00"
+      "output": "Please Enter Input Signal:\nThe Clean Signal Is: 4.00, 5.00, 6.00, 5.00, 5.80, 4.67, 5.60, 304.80, 504.67, 1504.00"
     },
     {
       "name": "Input example 3 inputs of 3",
@@ -37,8 +37,8 @@
     },
     {
       "name": "Input example alternating 3 and 5s",
-      "input": "3 5 3 5 3 5 3 5 3 5\n",
-      "output": "Please Enter Input Signal:\nThe Clean Signal Is: 3.00, 5.00, 3.67, 4.33, 3.67, 4.20, 3.67, 4.20"
+      "input": "3 5 3 5 3 5 3 5 3 5 9 35\n",
+      "output": "Please Enter Input Signal:\nThe Clean Signal Is: 3.00, 5.00, 3.67, 5.00, 3.67, 4.20, 3.67, 4.20, 3.67, 4.20, 5.67, 11.40"
     }
   ]
 }
