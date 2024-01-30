@@ -6,6 +6,11 @@
       "output": "Please Enter Cool Letters:\nPlease Enter Text:\nThe score is: 15"
     },
     {
+      "name": "Input example test no newline in the end",
+      "input": "a b c\naxbd abac cccr",
+      "output": "Please Enter Cool Letters:\nPlease Enter Text:\nThe score is: 15"
+    },
+    {
       "name": "Bad letter test",
       "input": "a b c\naxbd ab@c cccr\n",
       "output": "Please Enter Cool Letters:\nPlease Enter Text:\nThe score is: -1"
@@ -13,6 +18,11 @@
     {
       "name": "Input example test capital letter",
       "input": "A b C\naxbd abac cccr\n",
+      "output": "Please Enter Cool Letters:\nPlease Enter Text:\nThe score is: 15"
+    },
+    {
+      "name": "Input example test capital no newline in the end",
+      "input": "A b C\naxbd abac cccr",
       "output": "Please Enter Cool Letters:\nPlease Enter Text:\nThe score is: 15"
     },
     {

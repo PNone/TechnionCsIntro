@@ -6,9 +6,19 @@
       "output": "Please Enter Cool Letter:\nPlease Enter Text:\nThe score is: 8"
     },
     {
+      "name": "Input example test no newline in the end of the input",
+      "input": "b\nBabbling bumbling band of baboons",
+      "output": "Please Enter Cool Letter:\nPlease Enter Text:\nThe score is: 8"
+    },
+    {
       "name": "Bad letter test",
       "input": "b\nBabbling bumbling b@nd of baboons\n",
       "output": "Please Enter Cool Letter:\nPlease Enter Text:\nThe score is: -1"
+    },
+    {
+      "name": "Input example test capital no newline in the end of the input",
+      "input": "B\nBabbling bumbling band of baboons",
+      "output": "Please Enter Cool Letter:\nPlease Enter Text:\nThe score is: 8"
     },
     {
       "name": "Input example test capital letter",
