@@ -31,8 +31,8 @@
       "output": "Please Enter Cool Letter:\nPlease Enter Text:\nThe score is: -1"
     },
     {
-      "name": "Input example test text with null terminator",
-      "input": "B\nBabbling bumbling \\0band of baboons\n",
+      "name": "Input example test text with backslash",
+      "input": "B\nBabbling bumbling \\band of baboons\n",
       "output": "Please Enter Cool Letter:\nPlease Enter Text:\nThe score is: -1"
     },
     {
