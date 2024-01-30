@@ -79,6 +79,21 @@
       "name": "Swap last digit with a zero that has multi zeros after it swap w first dig neg number",
       "input": "-30000\n5 1\n",
       "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: -3"
+    },
+    {
+      "name": "Test max pos int32",
+      "input": "2147483647\n4 8\n",
+      "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: 2137484647"
+    },
+    {
+      "name": "Test max neg int32",
+      "input": "-2147483648\n4 8\n",
+      "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: -2137484648"
+    },
+    {
+      "name": "Test zero",
+      "input": "00000000\n4 6\n",
+      "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: 0"
     }
   ]
 }
