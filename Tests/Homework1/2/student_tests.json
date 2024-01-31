@@ -44,6 +44,11 @@
       "name": "Long input test with no newline at the end",
       "input": "4 5 9 1 10 3 5 1505 4 3003",
       "output": "Please Enter Input Signal:\nThe Clean Signal Is: 4.00, 5.00, 6.00, 5.00, 5.80, 4.67, 5.60, 304.80, 504.67, 1504.00"
+    },
+    {
+      "name": "Long input test with negative numbers and no newline at the end",
+      "input": "4 -5 9 1 10 3 5 1505 4 -3003",
+      "output": "Please Enter Input Signal:\nThe Clean Signal Is: 4.00, -5.00, 2.67, 1.67, 3.80, 4.67, 5.60, 304.80, 504.67, -498.00"
     }
   ]
 }
