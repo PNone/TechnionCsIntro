@@ -36,6 +36,16 @@
       "output": "Please Enter Cool Letters:\nPlease Enter Text:\nThe score is: -1"
     },
     {
+      "name": "Test lower case conversion logic 1",
+      "input": "A B c Babbling bumbling !band of baboons",
+      "output": "Please Enter Cool Letters:\nPlease Enter Text:\nThe score is: -1"
+    },
+    {
+      "name": "Test lower case conversion logic 2",
+      "input": "A B c Babbling bumbling \"band of baboons",
+      "output": "Please Enter Cool Letters:\nPlease Enter Text:\nThe score is: -1"
+    },
+    {
       "name": "Input example test text with backslash",
       "input": "a B c Babbling bumbling \\band of baboons",
       "output": "Please Enter Cool Letters:\nPlease Enter Text:\nThe score is: -1"
