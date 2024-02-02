@@ -2,52 +2,62 @@
   "tests": [
     {
       "name": "Input example test",
-      "input": "b\nBabbling bumbling band of baboons\n",
+      "input": "b Babbling bumbling band of baboons",
       "output": "Please Enter Cool Letter:\nPlease Enter Text:\nThe score is: 8"
     },
     {
-      "name": "Input example test no newline in the end of the input",
-      "input": "b\nBabbling bumbling band of baboons",
+      "name": "Test input text starts with non cool letter",
+      "input": "b aBabbling bumbling band of baboons",
       "output": "Please Enter Cool Letter:\nPlease Enter Text:\nThe score is: 8"
     },
     {
       "name": "Bad letter test",
-      "input": "b\nBabbling bumbling b@nd of baboons\n",
+      "input": "b Babbling bumbling b@nd of baboons",
       "output": "Please Enter Cool Letter:\nPlease Enter Text:\nThe score is: -1"
     },
     {
       "name": "Input example test capital no newline in the end of the input",
-      "input": "B\nBabbling bumbling band of baboons",
+      "input": "B Babbling bumbling band of baboons",
       "output": "Please Enter Cool Letter:\nPlease Enter Text:\nThe score is: 8"
     },
     {
       "name": "Input example test capital letter",
-      "input": "B\nBabbling bumbling band of baboons\n",
+      "input": "B Babbling bumbling band of baboons",
       "output": "Please Enter Cool Letter:\nPlease Enter Text:\nThe score is: 8"
     },
     {
       "name": "Input example test letter Z<foo<a",
-      "input": "B\nBabbling bumbling ^band of baboons\n",
+      "input": "B Babbling bumbling ^band of baboons",
       "output": "Please Enter Cool Letter:\nPlease Enter Text:\nThe score is: -1"
     },
     {
       "name": "Input example test letter z<foo",
-      "input": "B\nBabbling bumbling ~band of baboons\n",
+      "input": "B Babbling bumbling ~band of baboons",
       "output": "Please Enter Cool Letter:\nPlease Enter Text:\nThe score is: -1"
     },
     {
       "name": "Input example test letter foo<A",
-      "input": "B\nBabbling bumbling !band of baboons\n",
+      "input": "B Babbling bumbling !band of baboons",
       "output": "Please Enter Cool Letter:\nPlease Enter Text:\nThe score is: -1"
     },
     {
       "name": "Input example test text with backslash",
-      "input": "B\nBabbling bumbling \\band of baboons\n",
+      "input": "B Babbling bumbling \\band of baboons",
       "output": "Please Enter Cool Letter:\nPlease Enter Text:\nThe score is: -1"
     },
     {
       "name": "Input example test text with newline",
-      "input": "B\nBabbling bumbling\nband of baboons\n",
+      "input": "B Babbling bumbling\nband of baboons",
+      "output": "Please Enter Cool Letter:\nPlease Enter Text:\nThe score is: -1"
+    },
+    {
+      "name": "Input example test text that ends with multiple spaces",
+      "input": "B Babbling bumbling band of baboons         ",
+      "output": "Please Enter Cool Letter:\nPlease Enter Text:\nThe score is: 8"
+    },
+    {
+      "name": "Input example test text that end with invalid letter",
+      "input": "B Babbling bumbling band of baboons\\",
       "output": "Please Enter Cool Letter:\nPlease Enter Text:\nThe score is: -1"
     }
   ]

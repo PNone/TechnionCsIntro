@@ -2,102 +2,102 @@
   "tests": [
     {
       "name": "Input example test",
-      "input": "12345\n2 5\n",
+      "input": "12345\n2\n5",
       "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: 42315"
     },
     {
       "name": "Simple example test",
-      "input": "12\n2 1\n",
+      "input": "12\n2\n1",
       "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: 21"
     },
     {
       "name": "Millionaire example test",
-      "input": "1122543\n3 7\n",
-      "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: 5122143"
-    },
-    {
-      "name": "No newline at the end of the text",
-      "input": "1122543\n3 7",
+      "input": "1122543\n3\n7",
       "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: 5122143"
     },
     {
       "name": "Same digit in both places",
-      "input": "11225431\n1 7\n",
+      "input": "11225431\n1\n7",
       "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: 11225431"
     },
     {
       "name": "Same coordinate in both places",
-      "input": "71225432\n2 2\n",
+      "input": "71225432\n2\n2",
       "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: 71225432"
     },
     {
       "name": "Negative number test",
-      "input": "-1122543\n3 7\n",
+      "input": "-1122543\n3\n7",
       "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: -5122143"
     },
     {
       "name": "Negative and same digit in both places",
-      "input": "-11225431\n1 7\n",
+      "input": "-11225431\n1\n7",
       "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: -11225431"
     },
     {
       "name": "Negative and same coordinate in both places",
-      "input": "-71225432\n2 2\n",
+      "input": "-71225432\n2\n2",
       "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: -71225432"
     },
     {
       "name": "Swap last digit with a zero pos number",
-      "input": "325402\n6 2\n",
+      "input": "325402\n6\n2",
       "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: 25432"
     },
     {
       "name": "Swap last digit with a zero neg number",
-      "input": "-325402\n6 2\n",
+      "input": "-325402\n6\n2",
       "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: -25432"
     },
     {
       "name": "Swap last digit with a zero that has multi zeros after it pos number",
-      "input": "30002\n5 2\n",
+      "input": "30002\n5\n2",
       "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: 32"
     },
     {
       "name": "Swap last digit with a zero that has multi zeros after it neg number",
-      "input": "-30002\n5 2\n",
+      "input": "-30002\n5\n2",
       "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: -32"
     },
     {
       "name": "Swap last digit with a zero that has only zeros after it pos number",
-      "input": "30000\n5 2\n",
+      "input": "30000\n5\n2",
       "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: 30"
     },
     {
+      "name": "Swap digits with position larger that 9",
+      "input": "2001000123\n10\n3",
+      "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: 1001000223"
+    },
+    {
       "name": "Swap last digit with a zero that has multi zeros after it neg number",
-      "input": "-30000\n5 2\n",
+      "input": "-30000\n5\n2",
       "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: -30"
     },
     {
       "name": "Swap last digit with a zero that has only zeros after it swap w first dig pos number",
-      "input": "30000\n5 1\n",
+      "input": "30000\n5\n1",
       "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: 3"
     },
     {
       "name": "Swap last digit with a zero that has multi zeros after it swap w first dig neg number",
-      "input": "-30000\n5 1\n",
+      "input": "-30000\n5\n1",
       "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: -3"
     },
     {
       "name": "Test max pos int32",
-      "input": "2147483647\n4 8\n",
+      "input": "2147483647\n4\n8",
       "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: 2137484647"
     },
     {
       "name": "Test max neg int32",
-      "input": "-2147483648\n4 8\n",
+      "input": "-2147483648\n4\n8",
       "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: -2137484648"
     },
     {
       "name": "Test zero",
-      "input": "00000000\n4 6\n",
+      "input": "00000000\n4\n6",
       "output": "Please enter the number:\nPlease enter the positions:\nThe new number is: 0"
     }
   ]

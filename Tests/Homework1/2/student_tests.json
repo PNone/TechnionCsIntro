@@ -2,51 +2,46 @@
   "tests": [
     {
       "name": "Input example test",
-      "input": "4 5 9 1 10 3\n",
+      "input": "4 5 9 1 10 3",
       "output": "Please Enter Input Signal:\nThe Clean Signal Is: 4.00, 5.00, 6.00, 5.00, 5.80, 4.67"
     },
     {
       "name": "Input example double whitespace",
-      "input": "4 5 9 1 10  3\n",
+      "input": "4 5 9 1 10  3",
       "output": "Please Enter Input Signal:\nThe Clean Signal Is: 4.00, 5.00, 6.00, 5.00, 5.80, 4.67"
     },
     {
       "name": "Input example single input",
-      "input": "4\n",
+      "input": "4",
       "output": "Please Enter Input Signal:\nThe Clean Signal Is: 4.00"
     },
     {
       "name": "Input example 2 inputs",
-      "input": "4 5\n",
+      "input": "4 5",
       "output": "Please Enter Input Signal:\nThe Clean Signal Is: 4.00, 5.00"
     },
     {
       "name": "Long input test",
-      "input": "4 5 9 1 10 3 5 1505 4 3003\n",
-      "output": "Please Enter Input Signal:\nThe Clean Signal Is: 4.00, 5.00, 6.00, 5.00, 5.80, 4.67, 5.60, 304.80, 504.67, 1504.00"
-    },
-    {
-      "name": "Input example 3 inputs of 3",
-      "input": "3 3 3\n",
-      "output": "Please Enter Input Signal:\nThe Clean Signal Is: 3.00, 3.00, 3.00"
-    },
-    {
-      "name": "Input example 5 inputs of 5",
-      "input": "5 5 5 5 5\n",
-      "output": "Please Enter Input Signal:\nThe Clean Signal Is: 5.00, 5.00, 5.00, 5.00, 5.00"
-    },
-    {
-      "name": "Input example alternating 3 and 5s",
-      "input": "3 5 3 5 3 5 3 5 3 5 9 35\n",
-      "output": "Please Enter Input Signal:\nThe Clean Signal Is: 3.00, 5.00, 3.67, 5.00, 3.67, 4.20, 3.67, 4.20, 3.67, 4.20, 5.67, 11.40"
-    },
-    {
-      "name": "Long input test with no newline at the end",
       "input": "4 5 9 1 10 3 5 1505 4 3003",
       "output": "Please Enter Input Signal:\nThe Clean Signal Is: 4.00, 5.00, 6.00, 5.00, 5.80, 4.67, 5.60, 304.80, 504.67, 1504.00"
     },
     {
-      "name": "Long input test with negative numbers and no newline at the end",
+      "name": "Input example 3 inputs of 3",
+      "input": "3 3 3",
+      "output": "Please Enter Input Signal:\nThe Clean Signal Is: 3.00, 3.00, 3.00"
+    },
+    {
+      "name": "Input example 5 inputs of 5",
+      "input": "5 5 5 5 5",
+      "output": "Please Enter Input Signal:\nThe Clean Signal Is: 5.00, 5.00, 5.00, 5.00, 5.00"
+    },
+    {
+      "name": "Input example alternating 3 and 5s",
+      "input": "3 5 3 5 3 5 3 5 3 5 9 35",
+      "output": "Please Enter Input Signal:\nThe Clean Signal Is: 3.00, 5.00, 3.67, 5.00, 3.67, 4.20, 3.67, 4.20, 3.67, 4.20, 5.67, 11.40"
+    },
+    {
+      "name": "Long input test with negative numbers",
       "input": "4 -5 9 1 10 3 5 1505 4 -3003",
       "output": "Please Enter Input Signal:\nThe Clean Signal Is: 4.00, -5.00, 2.67, 1.67, 3.80, 4.67, 5.60, 304.80, 504.67, -498.00"
     }
