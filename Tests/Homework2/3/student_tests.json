@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "very short example test",
+      "input": "1 0",
+      "output": "The longest sequence with continuous even numbers is: 0\n"
+    },
+    {
+      "name": "Always take first sequence from seqs with most consecutive nums",
+      "input": "12 2 4 6 5 7 10 12 14 3 6 8 10",
+      "output": "The longest sequence with continuous even numbers is: 2 4 6\n"
+    },
+    {
+      "name": "Only take sequence of numbers getting bigger",
+      "input": "9 9 2 4 6 8 6 4 2 0",
+      "output": "The longest sequence with continuous even numbers is: 2 4 6 8\n"
+    },
+    {
+      "name": "Make sure even num that breaks a sequence starts a new one (in this case, 0)",
+      "input": "7 2 4 6 0 2 4 6",
+      "output": "The longest sequence with continuous even numbers is: 0 2 4 6\n"
+    },
+    {
+      "name": "Max int test",
+      "input": "8 2147483640 2147483642 2147483644 2147483646 2147483647 2 4 6",
+      "output": "The longest sequence with continuous even numbers is: 2147483640 2147483642 2147483644 2147483646\n"
+    },
+    {
+      "name": "Negative numbers test",
+      "input": "8 -2 -4 -6 -8 -6 -4 -2 0",
+      "output": "The longest sequence with continuous even numbers is: -8 -6 -4 -2 0\n"
+    },
+    {
+      "name": "Negative numbers harder test",
+      "input": "9 -2 -4 -6 -8 -6 -4 -3 -2 0",
+      "output": "The longest sequence with continuous even numbers is: -8 -6 -4\n"
+    },
+    {
+      "name": "min int test",
+      "input": "9 -2147483648 -2147483646 -2147483644 -2147483642 -2147483640 -2147483647 2 4 6",
+      "output": "The longest sequence with continuous even numbers is: -2147483648 -2147483646 -2147483644 -2147483642 -2147483640\n"
+    }
+  ]
+}
