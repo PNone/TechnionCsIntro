@@ -13,12 +13,12 @@
     {
       "name": "Min non-negative non-palindrome test",
       "input": "10",
-      "output": "Please enter a number:\nThe number 10 is not palindrome"
+      "output": "Please enter a number:\nThe number is not palindrome"
     },
     {
       "name": "Max input test",
       "input": "2147483647",
-      "output": "Please enter a number:\nThe number 10 is not palindrome"
+      "output": "Please enter a number:\nThe number is not palindrome"
     },
     {
       "name": "Very large double palindrome test",
