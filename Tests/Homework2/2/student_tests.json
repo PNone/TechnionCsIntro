@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Min non-negative double palindrome test",
+      "input": "0",
+      "output": "Please enter a number:\nThe number 0 is double palindrome"
+    },
+    {
+      "name": "Min non-negative single palindrome test",
+      "input": "1",
+      "output": "Please enter a number:\nThe number 1 is palindrome"
+    },
+    {
+      "name": "Min non-negative non-palindrome test",
+      "input": "10",
+      "output": "Please enter a number:\nThe number 10 is not palindrome"
+    },
+    {
+      "name": "Max input test",
+      "input": "2147483647",
+      "output": "Please enter a number:\nThe number 10 is not palindrome"
+    },
+    {
+      "name": "Very large double palindrome test",
+      "input": "2147447412",
+      "output": "Please enter a number:\nThe number 2147447412 is double palindrome"
+    },
+    {
+      "name": "Max normal palindrome test",
+      "input": "999999999",
+      "output": "Please enter a number:\nThe number 999999999 is palindrome"
+    }
+  ]
+}
