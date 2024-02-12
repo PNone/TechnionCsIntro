@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Min input test",
+      "input": "1",
+      "output": "Please enter a number:\nThe number 1 is not a strong prime number\n"
+    },
+    {
+      "name": "Max input test",
+      "input": "4294960000",
+      "output": "Please enter a number:\nThe number 4294960000 is a strong prime number!\n"
+    },
+    {
+      "name": "A lot of recursive sums test",
+      "input": "999999999",
+      "output": "Please enter a number:\nThe number 999999999 is not a strong prime number\n"
+    },
+    {
+      "name": "A simple two digits test",
+      "input": "11",
+      "output": "Please enter a number:\nThe number 11 is a strong prime number!\n"
+    },
+    {
+      "name": "A lot of zeros not strong prime test",
+      "input": "900000009",
+      "output": "Please enter a number:\nThe number 900000009 is not a strong prime number\n"
+    },
+    {
+      "name": "A lot of zeros strong prime test",
+      "input": "100000001",
+      "output": "Please enter a number:\nThe number 100000001 is a strong prime number!\n"
+    }
+  ]
+}
