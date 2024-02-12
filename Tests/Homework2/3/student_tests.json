@@ -39,6 +39,11 @@
       "name": "min int test",
       "input": "9 -2147483648 -2147483646 -2147483644 -2147483642 -2147483640 -2147483647 2 4 6",
       "output": "The longest sequence with continuous even numbers is: -2147483648 -2147483646 -2147483644 -2147483642 -2147483640\n"
+    },
+    {
+      "name": "Mix of negative and positive numbers test",
+      "input": "16 -2 -4 -6 -8 -6 -4 -3 -4 -2 0 2 4 3 2 4 6",
+      "output": "The longest sequence with continuous even numbers is: -2 0 2 4\n"
     }
   ]
 }
