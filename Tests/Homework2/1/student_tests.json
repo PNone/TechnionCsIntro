@@ -11,6 +11,11 @@
       "output": "Please enter a number:\nThe number 4294960000 is a strong prime number!\n"
     },
     {
+      "name": "Not max but requires uint test",
+      "input": "2294960000",
+      "output": "Please enter a number:\nThe number 2294960000 is a strong prime number!\n"
+    },
+    {
       "name": "A lot of recursive sums test",
       "input": "999999999",
       "output": "Please enter a number:\nThe number 999999999 is not a strong prime number\n"
