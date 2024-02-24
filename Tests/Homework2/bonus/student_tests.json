@@ -1,0 +1,9 @@
+{
+  "tests": [
+    {
+      "name": "Test k longer than n",
+      "input": "4 5 1 2 3 4",
+      "output": "4 1 2 3"
+    }
+  ]
+}
