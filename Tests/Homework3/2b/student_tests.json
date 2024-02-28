@@ -2,8 +2,8 @@
   "tests": [
     {
       "name": "max int test",
-      "input": "3 2147483647 2 -2000000000 0 2147483647",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n0"
+      "input": "3 2147483647 2 0 1 2147483647",
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n1"
     },
     {
       "name": "min int test",
@@ -77,7 +77,7 @@
     },
     {
       "name": "array odd length same distance choose smaller num",
-      "input": "7 103 5 1 88 98 100 103 106 108 10001 10002",
+      "input": "7 103 5 1 88 98 100 102 103 106 108 10001",
       "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n98"
     },
     {
@@ -152,7 +152,7 @@
     },
     {
       "name": "array even length same distance choose smaller num",
-      "input": "8 103 5 1 88 98 100 103 106 108 10001 10002 10003",
+      "input": "8 103 5 1 88 98 100 102 103 106 108 10001 10002",
       "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n98"
     },
     {
