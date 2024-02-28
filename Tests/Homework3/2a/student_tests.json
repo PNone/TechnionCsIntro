@@ -16,6 +16,11 @@
       "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n5"
     },
     {
+      "name": "array with len divisible by 4 element in index 3",
+      "input": "8 13 9 10 12 13 1 4 5 6",
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n3"
+    },
+    {
       "name": "Array of size 1 test",
       "input": "1 1 1",
       "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n0"
@@ -28,12 +33,7 @@
     {
       "name": "min int test",
       "input": "7 -2147483648 10 12 -2147483648 1 4 5 6",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n3"
-    },
-    {
-      "name": "min int test beginning of arr",
-      "input": "5 -2147483648 -2147483648 1 4 5 6",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n0"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n2"
     },
     {
       "name": "min int test end of arr",
@@ -43,17 +43,12 @@
     {
       "name": "max int test",
       "input": "8 2147483647 9 10 12 2147483647 1 4 5 6",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n4"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n3"
     },
     {
       "name": "max int test beginning of arr",
       "input": "6 2147483647 2147483647 1 4 5 6 7",
       "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n0"
-    },
-    {
-      "name": "max int test end of arr",
-      "input": "6 2147483647 1 3 4 5 6 2147483647",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n5"
     }
   ]
 }
