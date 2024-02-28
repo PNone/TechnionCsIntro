@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "max int test",
+      "input": "3 2147483647 2 -2000000000 0 2147483647",
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n0"
+    },
+    {
+      "name": "min int test",
+      "input": "3 -2147483648 2 -2147483648 0 2000000000",
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n0"
+    },
+    {
+      "name": "min int test 2",
+      "input": "3 -2147483648 3 -2147483648 0 2000000000",
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n2000000000"
+    },
+    {
+      "name": "min and max int test",
+      "input": "5 -2147483648 5 -2147483648 0 2000000000 2000000010 2147483647",
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n2147483647"
+    }
+  ]
+}

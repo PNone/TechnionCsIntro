@@ -1,0 +1,29 @@
+{
+  "tests": [
+    {
+      "name": "example test",
+      "input": "6 10 10 12 1 4 5 6",
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n0"
+    },
+    {
+      "name": "not found example test",
+      "input": "6 7 10 12 1 4 5 6",
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n-1"
+    },
+    {
+      "name": "number in edge of shifted array",
+      "input": "6 6 10 12 1 4 5 6",
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n5"
+    },
+    {
+      "name": "Array of size 1 test",
+      "input": "1 1 1",
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n 1"
+    },
+    {
+      "name": "Array of size 1 element missing test",
+      "input": "1 2 1",
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n -1"
+    }
+  ]
+}
