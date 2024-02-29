@@ -150,6 +150,11 @@
       "name": "Ultimate Test (Thanks Ido :) )",
       "input": "8 10 8 -50 -20 -10 0 5 21 29 45",
       "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n-50"
+    },
+    {
+      "name": "same distance on initial check (Thanks again Ido :) )",
+      "input": "10 4 2 0 1 2 3 5 7 8 10 12 14",
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n5"
     }
   ]
 }
