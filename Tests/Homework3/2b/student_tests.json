@@ -6,7 +6,16 @@
       "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n1"
     },
     {
-     
+      "name": "very small int test",
+      "input": "3 -2000000000 2 -2000000000 0 2000000000",
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n0"
+    },
+    {
+      "name": "very small int test 2",
+      "input": "3 -1000000000 3 -1000000000 0 2000000000",
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n2000000000"
+    },
+    {
       "name": "array odd length in reaching left edge during middle of calc",
       "input": "7 3 5 1 2 3 8 10 800 1000",
       "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n10"
