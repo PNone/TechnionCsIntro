@@ -49,6 +49,16 @@
       "name": "max int test beginning of arr",
       "input": "6 2147483647 2147483647 1 4 5 6 7",
       "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n0"
+    },
+    {
+      "name": "target is largest num test",
+      "input": "5 5 3 5 0 1 2",
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n1"
+    },
+    {
+      "name": "target is smallest num test",
+      "input": "5 0 3 5 0 1 2",
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n2"
     }
   ]
 }
