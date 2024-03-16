@@ -3,167 +3,167 @@
     {
       "name": "max int test",
       "input": "3 2147483647 2 0 1 2147483647",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n1"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n1\n"
     },
     {
       "name": "very small int test",
       "input": "3 -1000000000 2 -1000000000 0 1000000000",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n0"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n0\n"
     },
     {
       "name": "very small int test 2",
       "input": "3 -1000000000 3 -1000000000 0 1000000000",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n1000000000"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n1000000000\n"
     },
     {
       "name": "array odd length in reaching left edge during middle of calc",
       "input": "7 3 5 1 2 3 8 10 800 1000",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n10"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n10\n"
     },
     {
       "name": "array odd length in reaching left edge during middle of calc neg",
       "input": "7 -100 4 -150 -100 -99 8 10 800 1000",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n8"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n8\n"
     },
     {
       "name": "array odd length in reaching right edge during middle of calc",
       "input": "7 700 5 1 2 3 8 10 800 1000",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n3"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n3\n"
     },
     {
       "name": "array odd length in reaching right edge during middle of calc neg",
       "input": "7 -2 4 -1500 -1000 -990 -100 -8 -2 -1",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n-100"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n-100\n"
     },
     {
       "name": "array odd length target not in arr neg",
       "input": "7 -100 4 -150 -130 -99 8 10 800 1000",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n8"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n8\n"
     },
     {
       "name": "array odd length target not in arr neg 2",
       "input": "7 -100 4 -150 -130 -99 -70 10 800 1000",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n-150"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n-150\n"
     },
     {
       "name": "array odd length target not in arr neg 3",
       "input": "7 -100 5 -150 -130 -99 -70 10 800 1000",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n10"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n10\n"
     },
     {
       "name": "array odd length target first in arr",
       "input": "9 1 5 1 130 999 1070 1100 8000 10000 10001 10002",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n1100"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n1100\n"
     },
     {
       "name": "array odd length target smaller than first in arr",
       "input": "9 0 5 1 130 999 1070 1100 8000 10000 10001 10002",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n1100"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n1100\n"
     },
     {
       "name": "array odd length target last in arr",
       "input": "9 10002 5 1 130 999 1070 1101 8000 10000 10001 10002",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n1101"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n1101\n"
     },
     {
       "name": "array odd length target larger than first in arr",
       "input": "9 10003 5 1 130 999 1070 1110 8000 10000 10001 10002",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n1110"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n1110\n"
     },
     {
       "name": "array odd length same distance from target choose smaller num",
       "input": "7 103 4 1 88 99 100 103 106 10000 10001 10002",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n99"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n99\n"
     },
     {
       "name": "array odd length same distance choose smaller num",
       "input": "7 103 5 1 88 98 100 102 103 106 108 10001",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n98"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n98\n"
     },
     {
       "name": "array even length in reaching left edge during middle of calc",
       "input": "8 3 5 1 2 3 8 10 800 1000 1001",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n10"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n10\n"
     },
     {
       "name": "array even length in reaching left edge during middle of calc neg",
       "input": "8 -100 4 -150 -100 -99 8 10 800 1000 1001",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n8"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n8\n"
     },
     {
       "name": "array even length in reaching right edge during middle of calc",
       "input": "6 700 5 1 2 3 8 650 800",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n2"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n2\n"
     },
     {
       "name": "array even length in reaching right edge during middle of calc neg",
       "input": "8 -2 4 -1500 -1000 -990 -100 -8 -3 -2 -1",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n-8"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n-8\n"
     },
     {
       "name": "array even length in reaching right edge during middle of calc neg choose smaller neg",
       "input": "8 -2 3 -1500 -1000 -990 -100 -8 -3 -2 -1",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n-1"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n-1\n"
     },
     {
       "name": "array even length target not in arr neg",
       "input": "8 -100 4 -150 -130 -99 -98 8 10 800 1000",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n-150"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n-150\n"
     },
     {
       "name": "array even length target not in arr neg do salsa",
       "input": "8 -100 5 -150 -130 -99 -98 8 10 800 1000",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n8"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n8\n"
     },
     {
       "name": "array even length target not in arr neg 2",
       "input": "6 -100 4 -150 -130 -99 -70 10 800",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n-150"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n-150\n"
     },
     {
       "name": "array even length target not in arr neg 3",
       "input": "6 -100 5 -150 -130 -99 -70 10 800",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n10"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n10\n"
     },
     {
       "name": "array even length target first in arr",
       "input": "10 1 5 1 130 999 1070 1100 8000 10000 10001 10002 10003",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n1100"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n1100\n"
     },
     {
       "name": "array even length target smaller than first in arr",
       "input": "10 0 5 1 130 999 1070 1100 8000 10000 10001 10002 10003",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n1100"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n1100\n"
     },
     {
       "name": "array even length target last in arr",
       "input": "8 10003 5 130 999 1070 1101 8000 10000 10001 10002",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n1101"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n1101\n"
     },
     {
       "name": "array even length target larger than first in arr",
       "input": "8 10003 5 130 999 1070 1110 8000 10000 10001 10002",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n1110"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n1110\n"
     },
     {
       "name": "array even length same distance from target choose smaller num",
       "input": "8 103 4 1 88 99 100 103 106 10000 10001 10002 10003",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n99"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n99\n"
     },
     {
       "name": "array even length same distance choose smaller num",
       "input": "8 103 5 1 88 98 100 102 103 106 108 10001 10002",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n98"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n98\n"
     },
     {
       "name": "Ultimate Test (Thanks Ido :) )",
       "input": "8 10 8 -50 -20 -10 0 5 21 29 45",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n-50"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n-50\n"
     },
     {
       "name": "same distance on initial check (Thanks again Ido :) )",
       "input": "10 4 2 0 1 2 3 5 7 8 10 12 14",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n5"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter k:\nPlease enter sorted and uniq array:\n5\n"
     }
   ]
 }

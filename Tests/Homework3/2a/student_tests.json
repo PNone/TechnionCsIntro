@@ -3,62 +3,112 @@
     {
       "name": "example test",
       "input": "6 10 10 12 1 4 5 6",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n0"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n0\n"
     },
     {
       "name": "not found example test",
       "input": "6 7 10 12 1 4 5 6",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n-1"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n-1\n"
     },
     {
       "name": "number in edge of shifted array",
       "input": "6 6 10 12 1 4 5 6",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n5"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n5\n"
     },
     {
       "name": "array with len divisible by 4 element in index 3",
       "input": "8 13 9 10 12 13 1 4 5 6",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n3"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n3\n"
     },
     {
       "name": "Array of size 1 test",
       "input": "1 1 1",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n0"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n0\n"
     },
     {
       "name": "Array of size 1 element missing test",
       "input": "1 2 1",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n-1"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n-1\n"
     },
     {
       "name": "min int test",
       "input": "7 -2147483648 10 12 -2147483648 1 4 5 6",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n2"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n2\n"
     },
     {
       "name": "min int test end of arr",
       "input": "5 -2147483648 1 4 5 6 -2147483648",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n4"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n4\n"
     },
     {
       "name": "max int test",
       "input": "8 2147483647 9 10 12 2147483647 1 4 5 6",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n3"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n3\n"
     },
     {
       "name": "max int test beginning of arr",
       "input": "6 2147483647 2147483647 1 4 5 6 7",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n0"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n0\n"
+    },
+    {
+      "name": "Find target is biggest number in array",
+      "input": "8 20 9 10 12 20 1 4 5 6",
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n3\n"
+    },
+    {
+      "name": "Find target is biggest number in start of array",
+      "input": "8 20 20 1 4 5 6 9 10 12",
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n0\n"
+    },
+    {
+      "name": "Find target is biggest number in odd array",
+      "input": "7 20 9 10 20 1 4 5 6",
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n2\n"
+    },
+    {
+      "name": "Find target is biggest number in start of array",
+      "input": "7 20 20 1 4 5 9 10 12",
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n0\n"
+    },
+    {
+      "name": "Target is smallest num test",
+      "input": "7 1 10 12 1 2 4 5 6",
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n2\n"
+    },
+    {
+      "name": "Target is smallest num even array test",
+      "input": "6 1 10 12 1 4 5 6",
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n2\n"
+    },
+    {
+      "name": "Target is smallest num end of arr even array test",
+      "input": "6 1 4 5 6 10 12 1",
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n5\n"
+    },
+    {
+      "name": "Target is smallest num 0 test",
+      "input": "7 0 10 12 0 2 4 5 6",
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n2\n"
+    },
+    {
+      "name": "Target is smallest num at the end of arr",
+      "input": "7 1 2 4 5 6 10 12 1",
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n6\n"
+    },
+    {
+      "name": "Target is smallest num 0 at the end of arr",
+      "input": "7 0 2 4 5 6 10 12 0",
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n6\n"
     },
     {
       "name": "target is largest num test",
       "input": "5 5 3 5 0 1 2",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n1"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n1\n"
     },
     {
       "name": "target is smallest num test",
       "input": "5 0 3 5 0 1 2",
-      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n2"
+      "output": "Please enter array length:\nPlease enter target number:\nPlease enter shifted array:\n2\n"
     }
   ]
 }
