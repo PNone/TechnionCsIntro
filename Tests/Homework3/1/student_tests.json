@@ -31,12 +31,12 @@
       "output": "Number of rows:\nNumber of columns:\nPlease enter k:\nError: k must be greater than zero, setting k to 4\n\n| | | | | | |\n| | | | | | |\n| | | | | | |\n| | | | | | |\nPlayer Y, enter col:\n\n| | | | | | |\n| | | | | | |\n| | | | | | |\n|Y| | | | | |\nPlayer X, enter col:\n\n| | | | | | |\n| | | | | | |\n| | | | | | |\n|Y|X| | | | |\nPlayer Y, enter col:\n\n| | | | | | |\n| | | | | | |\n| | | | | | |\n|Y|X|Y| | | |\nPlayer X, enter col:\n\n| | | | | | |\n| | | | | | |\n| | | | | | |\n|Y|X|Y|X| | |\nPlayer Y, enter col:\n\n| | | | | | |\n| | | | | | |\n| | | | | | |\n|Y|X|Y|X|Y| |\nPlayer X, enter col:\n\n| | | | | | |\n| | | | | | |\n| | | | | | |\n|Y|X|Y|X|Y|X|\nPlayer Y, enter col:\nInvalid input, try again\nPlayer Y, enter col:\nInvalid input, try again\nPlayer Y, enter col:\n\n| | | | | | |\n| | | | | | |\n|Y| | | | | |\n|Y|X|Y|X|Y|X|\nPlayer X, enter col:\n\n| | | | | | |\n| | | | | | |\n|Y|X| | | | |\n|Y|X|Y|X|Y|X|\nPlayer Y, enter col:\n\n| | | | | | |\n| | | | | | |\n|Y|X|Y| | | |\n|Y|X|Y|X|Y|X|\nPlayer X, enter col:\n\n| | | | | | |\n| | | | | | |\n|Y|X|Y|X| | |\n|Y|X|Y|X|Y|X|\nPlayer Y, enter col:\n\n| | | | | | |\n| | | | | | |\n|Y|X|Y|X|Y| |\n|Y|X|Y|X|Y|X|\nPlayer X, enter col:\n\n| | | | | | |\n| | | | | | |\n|Y|X|Y|X|Y|X|\n|Y|X|Y|X|Y|X|\nPlayer Y, enter col:\nInvalid input, try again\nPlayer Y, enter col:\nInvalid input, try again\nPlayer Y, enter col:\n\n| | | | | | |\n|Y| | | | | |\n|Y|X|Y|X|Y|X|\n|Y|X|Y|X|Y|X|\nPlayer X, enter col:\n\n| | | | | | |\n|Y|X| | | | |\n|Y|X|Y|X|Y|X|\n|Y|X|Y|X|Y|X|\nPlayer Y, enter col:\n\n| | | | | | |\n|Y|X|Y| | | |\n|Y|X|Y|X|Y|X|\n|Y|X|Y|X|Y|X|\nPlayer X, enter col:\n\n| | | | | | |\n|Y|X|Y|X| | |\n|Y|X|Y|X|Y|X|\n|Y|X|Y|X|Y|X|\nPlayer Y, enter col:\n\n| | | | | | |\n|Y|X|Y|X|Y| |\n|Y|X|Y|X|Y|X|\n|Y|X|Y|X|Y|X|\nPlayer X, enter col:\n\n| | | | | | |\n|Y|X|Y|X|Y|X|\n|Y|X|Y|X|Y|X|\n|Y|X|Y|X|Y|X|\nPlayer Y, enter col:\nInvalid input, try again\nPlayer Y, enter col:\nInvalid input, try again\nPlayer Y, enter col:\n\n| | | |Y| | |\n|Y|X|Y|X|Y|X|\n|Y|X|Y|X|Y|X|\n|Y|X|Y|X|Y|X|\nPlayer X, enter col:\n\n|X| | |Y| | |\n|Y|X|Y|X|Y|X|\n|Y|X|Y|X|Y|X|\n|Y|X|Y|X|Y|X|\nPlayer Y, enter col:\n\n|X|Y| |Y| | |\n|Y|X|Y|X|Y|X|\n|Y|X|Y|X|Y|X|\n|Y|X|Y|X|Y|X|\nPlayer X, enter col:\n\n|X|Y|X|Y| | |\n|Y|X|Y|X|Y|X|\n|Y|X|Y|X|Y|X|\n|Y|X|Y|X|Y|X|\nPlayer Y, enter col:\n\n|X|Y|X|Y| |Y|\n|Y|X|Y|X|Y|X|\n|Y|X|Y|X|Y|X|\n|Y|X|Y|X|Y|X|\nPlayer X, enter col:\n\n|X|Y|X|Y|X|Y|\n|Y|X|Y|X|Y|X|\n|Y|X|Y|X|Y|X|\n|Y|X|Y|X|Y|X|\nDRAW!\n"
     },
     {
-      "name": "invalid inputs 1",
+      "name": "invalid row size",
       "input": "8 9 5 3 2  34 64 ",
       "output": "Number of rows:\nError: Number of rows must be smaller than 8\n"
     },
     {
-      "name": "invalid inputs 1",
+      "name": "invalid col size",
       "input": "5 9 5 3 2  34 64 ",
       "output": "Number of rows:\nNumber of columns:\nError: Number of columns must be smaller than 8\n"
     },
@@ -49,6 +49,11 @@
       "name": "test handle neg K value, DRAW and invalid inputs ",
       "input": "3 4 -10 0 1 2 3  6 0 1 2 3 5 1 2 3 0 4 1 2 3 0 0 1 2 3 -3 0 1 2 3  1 2 3 0  1 2 3 0 0 1 2 3  0 1 2 3  1 2 3 0  1 2 3 0 0 1 2 3  0 1 2 3  1 2 3 0  1 2 3 0 0 1 2 3  0 1 2 3  1 2 3 0  1 2 3 0 0 1 2 3  0 1 2 3  1 2 3 0  1 2 3 0 0 1 2 3  0 1 2 3  1 2 3 0  1 2 3 0",
       "output": "Number of rows:\nNumber of columns:\nPlease enter k:\nError: k must be greater than zero, setting k to 3\n\n| | | | |\n| | | | |\n| | | | |\nPlayer Y, enter col:\n\n| | | | |\n| | | | |\n|Y| | | |\nPlayer X, enter col:\n\n| | | | |\n| | | | |\n|Y|X| | |\nPlayer Y, enter col:\n\n| | | | |\n| | | | |\n|Y|X|Y| |\nPlayer X, enter col:\n\n| | | | |\n| | | | |\n|Y|X|Y|X|\nPlayer Y, enter col:\nInvalid input, try again\nPlayer Y, enter col:\n\n| | | | |\n|Y| | | |\n|Y|X|Y|X|\nPlayer X, enter col:\n\n| | | | |\n|Y|X| | |\n|Y|X|Y|X|\nPlayer Y, enter col:\n\n| | | | |\n|Y|X|Y| |\n|Y|X|Y|X|\nPlayer X, enter col:\n\n| | | | |\n|Y|X|Y|X|\n|Y|X|Y|X|\nPlayer Y, enter col:\nInvalid input, try again\nPlayer Y, enter col:\n\n| |Y| | |\n|Y|X|Y|X|\n|Y|X|Y|X|\nPlayer X, enter col:\n\n| |Y|X| |\n|Y|X|Y|X|\n|Y|X|Y|X|\nPlayer Y, enter col:\n\n| |Y|X|Y|\n|Y|X|Y|X|\n|Y|X|Y|X|\nPlayer X, enter col:\n\n|X|Y|X|Y|\n|Y|X|Y|X|\n|Y|X|Y|X|\nDRAW!\n"
+    },
+    {
+      "name": "test secondary diagonal win",
+      "input": "5 5 3 0 1 2 2 2 3 1",
+      "output": "Number of rows:\nNumber of columns:\nPlease enter k:\n\n| | | | | |\n| | | | | |\n| | | | | |\n| | | | | |\n| | | | | |\nPlayer Y, enter col:\n\n| | | | | |\n| | | | | |\n| | | | | |\n| | | | | |\n|Y| | | | |\nPlayer X, enter col:\n\n| | | | | |\n| | | | | |\n| | | | | |\n| | | | | |\n|Y|X| | | |\nPlayer Y, enter col:\n\n| | | | | |\n| | | | | |\n| | | | | |\n| | | | | |\n|Y|X|Y| | |\nPlayer X, enter col:\n\n| | | | | |\n| | | | | |\n| | | | | |\n| | |X| | |\n|Y|X|Y| | |\nPlayer Y, enter col:\n\n| | | | | |\n| | | | | |\n| | |Y| | |\n| | |X| | |\n|Y|X|Y| | |\nPlayer X, enter col:\n\n| | | | | |\n| | | | | |\n| | |Y| | |\n| | |X| | |\n|Y|X|Y|X| |\nPlayer Y, enter col:\n\n| | | | | |\n| | | | | |\n| | |Y| | |\n| |Y|X| | |\n|Y|X|Y|X| |\nPlayer Y won in 7 moves!\n"
     }
   ]
 }
