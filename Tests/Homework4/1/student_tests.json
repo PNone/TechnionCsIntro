@@ -1,0 +1,49 @@
+{
+  "tests": [
+    {
+      "name": "One Word Song Test",
+      "input": "1 whoistheboss",
+      "output": "Enter k:\nEnter your song lyrics:\nwH0!$#H340$$\n"
+    },
+    {
+      "name": "coding blues",
+      "input": "5 im stuck in the loop of endless code syntax errors make my head explode debugging all night feeling low my lifes a recursive overflow syntax syntax everywhere i see lost in the brackets wheres my reprieve syntax syntax its haunting me in this digital maze im not free",
+      "output": "Enter k:\nEnter your song lyrics:\nim stuck in the loop of endless code $~^#@* errors make my head explode debugging all night feeling low my lifes a recursive overflow $~^#@* $~^#@* everywhere i see lost in the brackets wheres my reprieve $~^#@* $~^#@* its haunting me in this digital maze im not free\n"
+    },
+    {
+      "name": "data love",
+      "input": "5 in this world of bytes and bits i found a love that never quits data streams and algorithms algorithm youre my anthem algorithm algorithm youre my light guiding me through the darkest night algorithm algorithm youre my song with you i always belong",
+      "output": "Enter k:\nEnter your song lyrics:\nin this world of bytes and bits i found a love that never quits data streams and algorithms @160R!#H+ youre my anthem @160R!#H+ @160R!#H+ youre my light guiding me through the darkest night @160R!#H+ @160R!#H+ youre my song with you i always belong\n"
+    },
+    {
+      "name": "caffeine dreams",
+      "input": "6 caffeine coursing through my veins keeping me awake through the strains java java my faithful friend with you i know ill transcend java java keep me awake through the night no rest to take java java fuel my fire with you ill never tire",
+      "output": "Enter k:\nEnter your song lyrics:\ncaffeine coursing through my veins keeping me awake through the strains }@>@ }@>@ my faithful friend with you i know ill transcend }@>@ }@>@ keep me awake through the night no rest to take }@>@ }@>@ fuel my fire with you ill never tire\n"
+    },
+    {
+      "name": "code romance",
+      "input": "3 across the screen our lines intertwine your syntax matching perfectly with mine in this digital dance we yes we find our groove code code our love we prove code our language of love through the bytes we rise above our hearts entwined in this binary world youre mine",
+      "output": "Enter k:\nEnter your song lyrics:\nacross the screen our lines intertwine your syntax matching perfectly with mine in this digital dance we yes we find our groove (083 (083 our love we prove (083 our language of love through the bytes we rise above our hearts entwined in this binary world youre mine\n"
+    },
+    {
+      "name": "code romance 2",
+      "input": "2 across that screen our lines intertwine your syntax matching perfectly with mine inside our digital dance we find our groove code code our love we prove code our language of love through the bytes we rise above our hearts entwined in this binary world you belong to me",
+      "output": "Enter k:\nEnter your song lyrics:\nacross that screen our lines intertwine your syntax matching perfectly with mine inside our digital dance we find our groove code code our 10>3 we prove code our language of 10>3 through the bytes we rise above our hearts entwined in this binary world you belong to me\n"
+    },
+    {
+      "name": "cyber heartbreak",
+      "input": "8 in the echo of silent servers i search for traces of our fervors error error error error our loves demise in this digital world of lies error error its all i see in this cybernetic sea error error our loves undone in this virtual world were gone",
+      "output": "Enter k:\nEnter your song lyrics:\nin the echo of silent servers i search for traces of our fervors 3RR0R 3RR0R 3RR0R 3RR0R our loves demise in this digital world of lies 3RR0R 3RR0R its all i see in this cybernetic sea 3RR0R 3RR0R our loves undone in this virtual world were gone\n"
+    },
+    {
+      "name": "cyber heartbreak 2",
+      "input": "2 in the echo with silent servers ill search for traces containing our fervors error error error error our loves demise in this digital world of lies error error its all i see in this cybernetic sea error error our loves undone in this virtual world were gone",
+      "output": "Enter k:\nEnter your song lyrics:\nin the echo with silent servers ill search for traces containing our fervors error error error error our 10>3$ demise in this digital world of lies error error its all i see in this cybernetic sea error error our 10>3$ undone in this virtual world were gone\n"
+    },
+    {
+      "name": "cyber heartbreak 3",
+      "input": "4 inzz the echo of silent servers inzz search for traces of our fervors error error error error our loves demise in this digital world of lies error error its all inzz see in this cybernetic sea error error our loves undone inzz this virtual world were gone",
+      "output": "Enter k:\nEnter your song lyrics:\n!^zz the echo of silent servers !^zz search for traces of our fervors error error error error our loves demise in this digital world of lies error error its all !^zz see in this cybernetic sea error error our loves undone !^zz this virtual world were gone\n"
+    }
+  ]
+}

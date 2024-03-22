@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Single Char Word success",
+      "input": "a a",
+      "output": "Yes, 'a' is a permutation of 'a'.\n"
+    },
+    {
+      "name": "Single Char Upper Word success",
+      "input": "Y Y",
+      "output": "Yes, 'Y' is a permutation of 'Y'.\n"
+    },
+    {
+      "name": "Single Char Fails due to case sensitive",
+      "input": "A a",
+      "output": "No, 'A' is not a permutation of 'a'.\n"
+    },
+    {
+      "name": "Complicated word comparison not perm",
+      "input": "NkwRcCVwFAFjcRcGrLLbqPneKzguHTCyqGcqEGNrzNEgyNERMEnuZXukYHzqSaiYigtMqwDScpbhNYienqWfSVVdbYnjEhfDUQqq cjDxNhYxdTkcSUXnapWuTNSEFEWCHJuFaWDgjXSzfcBaaZkCJynyabuGnvkWLnSqGGLXUwahGiNMfQMKTtUeJcmwnrfhmipQiUvy",
+      "output": "No, 'NkwRcCVwFAFjcRcGrLLbqPneKzguHTCyqGcqEGNrzNEgyNERMEnuZXukYHzqSaiYigtMqwDScpbhNYienqWfSVVdbYnjEhfDUQqq' is not a permutation of 'cjDxNhYxdTkcSUXnapWuTNSEFEWCHJuFaWDgjXSzfcBaaZkCJynyabuGnvkWLnSqGGLXUwahGiNMfQMKTtUeJcmwnrfhmipQiUvy'.\n"
+    },
+    {
+      "name": "Complicated word comparison is perm",
+      "input": "NkwRcCVwFAFjcRcGrLLbqPneKzguHTCyqGcqEGNrzNEgyNERMEnuZXukYHzqSaiYigtMqwDScpbhNYienqWfSVVdbYnjEhfDUQqq fESuuwwpYidYiqkVyHYXnzqcbcqRqHNANkULhcWFeDGSTwRGringMtSzanNecLVDREQFuYCbzEqcZrNjnyEhMGgqqCgqPVKbEfjN",
+      "output": "Yes, 'NkwRcCVwFAFjcRcGrLLbqPneKzguHTCyqGcqEGNrzNEgyNERMEnuZXukYHzqSaiYigtMqwDScpbhNYienqWfSVVdbYnjEhfDUQqq' is a permutation of 'fESuuwwpYidYiqkVyHYXnzqcbcqRqHNANkULhcWFeDGSTwRGringMtSzanNecLVDREQFuYCbzEqcZrNjnyEhMGgqqCgqPVKbEfjN'.\n"
+    },
+    {
+      "name": "Complicated word comparison not perm 2",
+      "input": "NkwRcCVwFAFjcRcGrLLbqPneKzguHTCyqGcqEGNrzNEgyNERMEnuZXukYHzqSaiYigtMqwDScpbhNYienqWfSVVdbYnjEhfDUQqq fESuuWwpYidYiqkVyHYXnzqcbcqRqHNANkULhcWFeDGSTwRGringMtSzanNecLVDREQFuYCbzEqcZrNjnyEhMGgqqCgqPVKbEfjN",
+      "output": "No, 'NkwRcCVwFAFjcRcGrLLbqPneKzguHTCyqGcqEGNrzNEgyNERMEnuZXukYHzqSaiYigtMqwDScpbhNYienqWfSVVdbYnjEhfDUQqq' is not a permutation of 'fESuuWwpYidYiqkVyHYXnzqcbcqRqHNANkULhcWFeDGSTwRGringMtSzanNecLVDREQFuYCbzEqcZrNjnyEhMGgqqCgqPVKbEfjN'.\n"
+    }
+  ]
+}
