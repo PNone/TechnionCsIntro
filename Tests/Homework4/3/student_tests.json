@@ -16,6 +16,16 @@
       "output": "No, 'A' is not a permutation of 'a'.\n"
     },
     {
+      "name": "Same Length not permutation test",
+      "input": "lorem moral",
+      "output": "No, 'lorem' is not a permutation of 'moral'.\n"
+    },
+    {
+      "name": "Similar up to last letter not permutation test",
+      "input": "lorem loren",
+      "output": "No, 'lorem' is not a permutation of 'loren'.\n"
+    },
+    {
       "name": "Complicated word comparison not perm",
       "input": "NkwRcCVwFAFjcRcGrLLbqPneKzguHTCyqGcqEGNrzNEgyNERMEnuZXukYHzqSaiYigtMqwDScpbhNYienqWfSVVdbYnjEhfDUQqq cjDxNhYxdTkcSUXnapWuTNSEFEWCHJuFaWDgjXSzfcBaaZkCJynyabuGnvkWLnSqGGLXUwahGiNMfQMKTtUeJcmwnrfhmipQiUvy",
       "output": "No, 'NkwRcCVwFAFjcRcGrLLbqPneKzguHTCyqGcqEGNrzNEgyNERMEnuZXukYHzqSaiYigtMqwDScpbhNYienqWfSVVdbYnjEhfDUQqq' is not a permutation of 'cjDxNhYxdTkcSUXnapWuTNSEFEWCHJuFaWDgjXSzfcBaaZkCJynyabuGnvkWLnSqGGLXUwahGiNMfQMKTtUeJcmwnrfhmipQiUvy'.\n"
