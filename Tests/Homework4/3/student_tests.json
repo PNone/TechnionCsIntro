@@ -27,18 +27,18 @@
     },
     {
       "name": "Complicated word comparison not perm",
-      "input": "NkwRcCVwFAFjcRcGrLLbqPneKzguHTCyqGcqEGNrzNEgyNERMEnuZXukYHzqSaiYigtMqwDScpbhNYienqWfSVVdbYnjEhfDUQqq cjDxNhYxdTkcSUXnapWuTNSEFEWCHJuFaWDgjXSzfcBaaZkCJynyabuGnvkWLnSqGGLXUwahGiNMfQMKTtUeJcmwnrfhmipQiUvy",
-      "output": "No, 'NkwRcCVwFAFjcRcGrLLbqPneKzguHTCyqGcqEGNrzNEgyNERMEnuZXukYHzqSaiYigtMqwDScpbhNYienqWfSVVdbYnjEhfDUQqq' is not a permutation of 'cjDxNhYxdTkcSUXnapWuTNSEFEWCHJuFaWDgjXSzfcBaaZkCJynyabuGnvkWLnSqGGLXUwahGiNMfQMKTtUeJcmwnrfhmipQiUvy'.\n"
+      "input": "NkwRcCVwFAFjcRcGrLLbqPneKzguHTCyqGcqEGNrzNEgyNERMEnuZXukYHzqSaiYigtMqwDScpbhNYienqWfSVVdbYnjEhfDUQq cjDxNhYxdTkcSUXnapWuTNSEFEWCHJuFaWDgjXSzfcBaaZkCJynyabuGnvkWLnSqGGLXUwahGiNMfQMKTtUeJcmwnrfhmipQiUv",
+      "output": "No, 'NkwRcCVwFAFjcRcGrLLbqPneKzguHTCyqGcqEGNrzNEgyNERMEnuZXukYHzqSaiYigtMqwDScpbhNYienqWfSVVdbYnjEhfDUQq' is not a permutation of 'cjDxNhYxdTkcSUXnapWuTNSEFEWCHJuFaWDgjXSzfcBaaZkCJynyabuGnvkWLnSqGGLXUwahGiNMfQMKTtUeJcmwnrfhmipQiUv'.\n"
     },
     {
       "name": "Complicated word comparison is perm",
-      "input": "NkwRcCVwFAFjcRcGrLLbqPneKzguHTCyqGcqEGNrzNEgyNERMEnuZXukYHzqSaiYigtMqwDScpbhNYienqWfSVVdbYnjEhfDUQqq fESuuwwpYidYiqkVyHYXnzqcbcqRqHNANkULhcWFeDGSTwRGringMtSzanNecLVDREQFuYCbzEqcZrNjnyEhMGgqqCgqPVKbEfjN",
-      "output": "Yes, 'NkwRcCVwFAFjcRcGrLLbqPneKzguHTCyqGcqEGNrzNEgyNERMEnuZXukYHzqSaiYigtMqwDScpbhNYienqWfSVVdbYnjEhfDUQqq' is a permutation of 'fESuuwwpYidYiqkVyHYXnzqcbcqRqHNANkULhcWFeDGSTwRGringMtSzanNecLVDREQFuYCbzEqcZrNjnyEhMGgqqCgqPVKbEfjN'.\n"
+      "input": "NkwRcCVwFAFjcRcGrLLbqPneKzguHTCyqGcqEGNrzNEgyNERMEnuZXukYHzqSaiYigtMqwDScpbhNYienqWfSVVdbYnjEhfDUQq fESuuwwpYidYiqkVyHYXnzqcbcqRqHNANkULhcWFeDGSTwRGringMtSzanNecLVDREQFuYCbzEqcZrNjnyEhMGgqqCgPVKbEfjN",
+      "output": "Yes, 'NkwRcCVwFAFjcRcGrLLbqPneKzguHTCyqGcqEGNrzNEgyNERMEnuZXukYHzqSaiYigtMqwDScpbhNYienqWfSVVdbYnjEhfDUQq' is a permutation of 'fESuuwwpYidYiqkVyHYXnzqcbcqRqHNANkULhcWFeDGSTwRGringMtSzanNecLVDREQFuYCbzEqcZrNjnyEhMGgqqCgPVKbEfjN'.\n"
     },
     {
       "name": "Complicated word comparison not perm 2",
-      "input": "NkwRcCVwFAFjcRcGrLLbqPneKzguHTCyqGcqEGNrzNEgyNERMEnuZXukYHzqSaiYigtMqwDScpbhNYienqWfSVVdbYnjEhfDUQqq fESuuWwpYidYiqkVyHYXnzqcbcqRqHNANkULhcWFeDGSTwRGringMtSzanNecLVDREQFuYCbzEqcZrNjnyEhMGgqqCgqPVKbEfjN",
-      "output": "No, 'NkwRcCVwFAFjcRcGrLLbqPneKzguHTCyqGcqEGNrzNEgyNERMEnuZXukYHzqSaiYigtMqwDScpbhNYienqWfSVVdbYnjEhfDUQqq' is not a permutation of 'fESuuWwpYidYiqkVyHYXnzqcbcqRqHNANkULhcWFeDGSTwRGringMtSzanNecLVDREQFuYCbzEqcZrNjnyEhMGgqqCgqPVKbEfjN'.\n"
+      "input": "NkwRcCVwFAFjcRcGrLLbqPneKzguHTCyqGcqEGNrzNEgyNERMEnuZXukYHzqSaiYigtMqwDScpbhNYienqWfSVVdbYnjEhfDUQq fESuuWwpYidYiqkVyHYXnzcbcqRqHNANkULhcWFeDGSTwRGringMtSzanNecLVDREQFuYCbzEqcZrNjnyEhMGgqqCgqPVKbEfjN",
+      "output": "No, 'NkwRcCVwFAFjcRcGrLLbqPneKzguHTCyqGcqEGNrzNEgyNERMEnuZXukYHzqSaiYigtMqwDScpbhNYienqWfSVVdbYnjEhfDUQq' is not a permutation of 'fESuuWwpYidYiqkVyHYXnzcbcqRqHNANkULhcWFeDGSTwRGringMtSzanNecLVDREQFuYCbzEqcZrNjnyEhMGgqqCgqPVKbEfjN'.\n"
     }
   ]
 }
