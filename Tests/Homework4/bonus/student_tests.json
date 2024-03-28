@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "number ends with zero",
+      "input": "8120",
+      "output": "Enter a number: Eight Thousand One Hundred Twenty\n"
+    },
+    {
+      "name": "single digit",
+      "input": "5",
+      "output": "Enter a number: Five\n"
+    },
+    {
+      "name": "two digits",
+      "input": "97",
+      "output": "Enter a number: Ninety Seven\n"
+    },
+    {
+      "name": "two digits round",
+      "input": "30",
+      "output": "Enter a number: Thirty\n"
+    },
+    {
+      "name": "three digits",
+      "input": "643",
+      "output": "Enter a number: Six Hundred Forty Three\n"
+    },
+    {
+      "name": "three digits no tens",
+      "input": "409",
+      "output": "Enter a number: Four Hundred Nine\n"
+    },
+    {
+      "name": "three digits no units",
+      "input": "150",
+      "output": "Enter a number: One Hundred Fifty\n"
+    },
+    {
+      "name": "three digits only hundreds",
+      "input": "200",
+      "output": "Enter a number: Two Hundred\n"
+    },
+    {
+      "name": "four digits 1",
+      "input": "9238",
+      "output": "Enter a number: Nine Thousand Two Hundred Thirty Eight\n"
+    },
+    {
+      "name": "four digits 2",
+      "input": "6790",
+      "output": "Enter a number: Six Thousand Seven Hundred Ninety\n"
+    },
+    {
+      "name": "four digits 3",
+      "input": "3509",
+      "output": "Enter a number: Three Thousand Five Hundred Nine\n"
+    },
+    {
+      "name": "four digits 4",
+      "input": "4800",
+      "output": "Enter a number: Four Thousand Eight Hundred\n"
+    },
+    {
+      "name": "four digits 5",
+      "input": "6013",
+      "output": "Enter a number: Six Thousand Thirteen\n"
+    },
+    {
+      "name": "four digits 6",
+      "input": "9050",
+      "output": "Enter a number: Nine Thousand Fifty\n"
+    },
+    {
+      "name": "four digits 7",
+      "input": "2003",
+      "output": "Enter a number: Two Thousand Three\n"
+    },
+    {
+      "name": "four digits 8",
+      "input": "5000",
+      "output": "Enter a number: Five Thousand\n"
+    }
+  ]
+}
