@@ -26,6 +26,11 @@
       "output": "No, 'lorem' is not a permutation of 'loren'.\n"
     },
     {
+      "name": "Same size same letters same order flip repetition amount not perm",
+      "input": "hhhha haaaa",
+      "output": "No, 'hhhha' is not a permutation of 'haaaa'.\n"
+    },
+    {
       "name": "Complicated word comparison not perm",
       "input": "NkwRcCVwFAFjcRcGrLLbqPneKzguHTCyqGcqEGNrzNEgyNERMEnuZXukYHzqSaiYigtMqwDScpbhNYienqWfSVVdbYnjEhfDUQq cjDxNhYxdTkcSUXnapWuTNSEFEWCHJuFaWDgjXSzfcBaaZkCJynyabuGnvkWLnSqGGLXUwahGiNMfQMKTtUeJcmwnrfhmipQiUv",
       "output": "No, 'NkwRcCVwFAFjcRcGrLLbqPneKzguHTCyqGcqEGNrzNEgyNERMEnuZXukYHzqSaiYigtMqwDScpbhNYienqWfSVVdbYnjEhfDUQq' is not a permutation of 'cjDxNhYxdTkcSUXnapWuTNSEFEWCHJuFaWDgjXSzfcBaaZkCJynyabuGnvkWLnSqGGLXUwahGiNMfQMKTtUeJcmwnrfhmipQiUv'.\n"
