@@ -6,6 +6,11 @@
       "output": "Enter k:\nEnter your song lyrics:\nwH0!$#H340$$ \n"
     },
     {
+      "name": "Detect memory leaks",
+      "input": "1 great great minds think think think alike alike",
+      "output": "Enter k:\nEnter your song lyrics:\ngreat great +!^8$ think think think alike alike \n"
+    },
+    {
       "name": "coding blues",
       "input": "5 im stuck in the loop of endless code syntax errors make my head explode debugging all night feeling low my lifes a recursive overflow syntax syntax everywhere i see lost in the brackets wheres my reprieve syntax syntax its haunting me in this digital maze im not free",
       "output": "Enter k:\nEnter your song lyrics:\nim stuck in the loop of endless code $~^#@* errors make my head explode debugging all night feeling low my lifes a recursive overflow $~^#@* $~^#@* everywhere i see lost in the brackets wheres my reprieve $~^#@* $~^#@* its haunting me in this digital maze im not free \n"
