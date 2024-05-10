@@ -1,0 +1,59 @@
+{
+  "tests": [
+    {
+      "name": "example1",
+      "input": "4 1 2 3 4 10 3",
+      "output": "2"
+    },
+    {
+      "name": "example2",
+      "input": "4 1 2 11 100 10 2",
+      "output": "1"
+    },
+    {
+      "name": "example3",
+      "input": "4 1 2 3 4 2 2",
+      "output": "2"
+    },
+    {
+      "name": "example4",
+      "input": "0 10 5",
+      "output": "-1"
+    },
+    {
+      "name": "example5",
+      "input": "4 10 20 30 40 20 11",
+      "output": "2"
+    },
+    {
+      "name": "evil test",
+      "input": "10 0 0 0 0 0 0 0 0 0 0 80 11",
+      "output": "-1"
+    },
+    {
+      "name": "antihero test",
+      "input": "10 53 11 81 32 50 2 15 33 24 1 80 2",
+      "output": "2"
+    },
+    {
+      "name": "binary test",
+      "input": "3 31 15 3 2 5",
+      "output": "0"
+    },
+    {
+      "name": "trinary test",
+      "input": "3 10 17 2 3 5",
+      "output": "1"
+    },
+    {
+      "name": "decimal test",
+      "input": "3 3 4 23 10 5",
+      "output": "2"
+    },
+    {
+      "name": "decimal test 2",
+      "input": "4 4 500 23 3 10 5",
+      "output": "1"
+    }
+  ]
+}

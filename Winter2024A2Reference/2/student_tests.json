@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "example1",
+      "input": "3 4 9 3 10",
+      "output": "3"
+    },
+    {
+      "name": "example2",
+      "input": "3 2 3 5 10",
+      "output": "5"
+    },
+    {
+      "name": "example3",
+      "input": "6 0 0 5 2 5 2 2",
+      "output": "0"
+    },
+    {
+      "name": "example3 with a twist",
+      "input": "6 0 0 5 2 5 2 4",
+      "output": "1"
+    },
+    {
+      "name": "example3 with another twist",
+      "input": "6 0 0 5 2 5 2 5",
+      "output": "1"
+    },
+    {
+      "name": "My example",
+      "input": "9 0 1 2 3 4 5 6 7 8 20",
+      "output": "2"
+    },
+    {
+      "name": "My example 2",
+      "input": "9 0 1 2 3 4 5 6 7 8 21",
+      "output": "3"
+    },
+    {
+      "name": "My example 3",
+      "input": "10 0 1 2 3 4 5 6 7 8 9 40",
+      "output": "6"
+    }
+  ]
+}

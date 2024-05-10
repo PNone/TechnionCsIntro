@@ -1,0 +1,39 @@
+{
+  "tests": [
+    {
+      "name": "example1",
+      "input": "bacda abcd",
+      "output": "1"
+    },
+    {
+      "name": "example2",
+      "input": "acdabbba ab",
+      "output": "3"
+    },
+    {
+      "name": "no pers and invalid hists will say 1",
+      "input": "cdef abc",
+      "output": "0"
+    },
+    {
+      "name": "complete disorder like in thermodynamics",
+      "input": "abcabcacb abc",
+      "output": "6"
+    },
+    {
+      "name": "very short and sad :(",
+      "input": "abcdafagrare a",
+      "output": "7"
+    },
+    {
+      "name": "very long and even sadder :_(",
+      "input": "abcdafagrare abcdafagrar",
+      "output": "1"
+    },
+    {
+      "name": "very long and max sadness X( (no matches)",
+      "input": "abcdafagrade abcdafagrar",
+      "output": "0"
+    }
+  ]
+}
